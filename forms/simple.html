@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Simple Form</title>
+    </head>
+    <body>
+        <h4>SURVEY FORM</h4>
+        <p>
+            <i>We appreciate your participation in our industry. Please take the survey & leave a remark below to help with future improvement.</i>
+        </p>
+        <form action="../page-1.html">
+            <p><b>Personal Information</b></p>
+            <p>
+                <label>Name</label>
+                <input type="text" placeholder="Enter your Name" name="name_of_person" required /> <!-- value="Simon2" -->
+            </p>
+            <!--
+                <p>
+                    <label>Gender</label>
+                    <input type="text" value="Male" />
+                </p>
+            -->
+            <p>
+                <label>Gender Dropdown</label>
+                <select required>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>I don't know</option>
+                </select>
+            </p>
+
+            <p>
+                <label>Email</label>
+                <input type="email" placeholder="Enter a valid email address" required /> <!-- value="simon@gmail.com" -->
+            </p>
+
+            <p>
+                <label>Phone</label>
+                <input type="number" />
+            </p>
+
+            <p>
+                <label>Choose what to activate</label>
+                <br>
+                <input type="checkbox" /> Activate Phone
+                <input type="checkbox" /> Activate Email
+            </p>
+
+            <p>
+                <label>Choose an Option</label>
+                <br>
+                <input type="radio" name="color" /> Pink or
+                <input type="radio" name="color" /> Green :)
+            </p>
+
+            <p>
+                <label>Question 1.</label>
+                <textarea>
+                    Hello World!
+                </textarea>
+            </p>
+
+            <p>
+                <label>Upload your file</label>
+                <input type="file" />
+            </p>
+
+            <p>
+                <!-- input type="button" value="Click to Submit!"> -->
+                <input type="submit" value="Click to Submit!">
+            </p>
+
+            <!--
+                <p>
+                    A simple button
+                    <button type="submit">
+                        A button Here...
+                    </button>
+                </p>
+            -->
+            
+            
+        </form>
+
+    </body>
+</html>
