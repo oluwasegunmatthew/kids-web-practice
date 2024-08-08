@@ -68,3 +68,33 @@ div.clear {
     
     border-radius:100%
 }
+
+.main_2{
+    max-width: 980px;
+    margin: 100px auto 0;
+    height: 650px;
+    background-image: url('../img/pic02-2.jpg');
+    background-size: cover;
+}
+
+.content {
+    width: 60%;
+    float: right;
+    margin-right: 80px;
+    margin-top: 180px;
+    line-height: 2.1rem;
+    color:#fff;
+}
+
+.content hr {
+    width:15%;
+    color: white;
+    float: left;
+    border: 0;
+    border-top: 1px solid #fff;
+    margin-bottom: 15px;
+}
+
+.content p {
+    clear: both;
+}
