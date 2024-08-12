@@ -98,3 +98,64 @@ div.clear {
 .content p {
     clear: both;
 }
+
+
+.main_3 {
+    border:solid thin #000;
+    max-width: 980px;
+    margin: 100px auto 0;
+    height: 550px;
+}
+
+.left3 {
+    width: 30%;
+    height: 100%;
+    float:left;
+    padding:40px auto;
+}
+
+.middle3 {
+    width: 40%;
+    height: 100%;
+    float:left;
+}
+
+.middle3_top {
+    background-color:#eaeaea;
+    background-image: url('../img/01.jpg');
+    background-size: cover;
+    height: 50%;
+}
+
+.middle3_bottom {
+    background-color:#f9f9f9;
+    height: 50%;
+}
+
+.middle3_bottom_left {
+    background-color: red;
+    width:50%;
+    height: 100%;
+    float:left;
+    background-image: url('../img/02.jpg');
+    background-size: cover;
+}
+
+.middle3_bottom_right {
+    background-color: blue;
+    width:50%;
+    height: 100%;
+    float:right;
+    background-image: url('../img/03.jpg');
+    background-size: cover;
+}
+
+
+
+.right3 {
+    width: 30%;
+    height: 100%;
+    float:right;
+    background-image: url('../img/04.jpg');
+    background-size: cover;
+}
