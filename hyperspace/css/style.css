@@ -1,0 +1,27 @@
+body {
+    padding:0;
+}
+
+.main {
+    padding:0;
+}
+
+.sidebar {
+    background-color:#312450;
+    width:22%;
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+}
+
+.content {
+    background-color:#5e42a6;
+    background-image: url('../img/intro.svg');
+    background-size: cover;
+    width:78%;
+    position: fixed;
+    top:0;
+    bottom:0;
+    right:0;
+}
