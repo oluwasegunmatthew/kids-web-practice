@@ -1,28 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 body {
     padding:0;
+    margin:0;
+    font-family: "Inter", sans-serif;
 }
 
 .main {
-    padding:0;
+    background-color: #b74e91;
+    color: #fff;
+    max-width: 100%;
+    min-height:650px;
+    margin:0;
+    padding:80px 60px;
 }
 
-.sidebar {
-    background-color:#312450;
-    width:22%;
-    position: fixed;
-    top:0;
-    bottom:0;
-    left:0;
+.main p {
+    color:#c6c6c6;
+    margin-bottom: 40px;
 }
 
-.content {
-    background-color:#5e42a6;
-    background-image: url('../img/intro.svg');
-    background-size: cover;
-    width:78%;
-    position: fixed;
-    top:0;
-    bottom:0;
-    right:0;
+.main .row {
+    height:220px;
+    width:100%;
+}
+
+.block {
+    border:solid 1px rgba(255, 255, 255, 0.15);
+    height: 100%;
+    width:49%;
+}
+.block.left {
+    float:left;
+}
+.block.right {
+    float:left;
+    border-left: 0;
+}
+
+.icon {
+    padding:40px;
+    float: left;
+}
+
+.text {
+    padding:20px 40px;
 }
 
